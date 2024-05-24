@@ -8,7 +8,7 @@ interface Props {
 
 const Nav = ({openNav}:Props) => {
   return (
-    <div className='w-[100%]  z-[10000] top-0 h-[12vh] bg-[#141c2700] shadow-md absolute '>
+    <div className='w-[100%] z-[10000] top-0 h-[12vh] bg-[#141c2700] shadow-md fixed '>
       <div className='flex items-center justify-between w-[80%] mx-auto h-[100%]'>
         <h1 className='flex-[0.6] cursor-pointertext-[25px] text-white font-bold'>
           WEB
