@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  rumi-web:
+    image: rumi-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - rumi-net
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - /etc/letsencrypt:/etc/letsencrypt
+    networks:
+      - rumi-net
+
+networks:
+  rumi-net:
