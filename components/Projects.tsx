@@ -9,7 +9,7 @@ const Projects = () => {
             Pro<span className="text-yellow-400">Jects</span>
         </h1>
         
-        <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 1g:grid-cols-3 gap-[2rem]">
+        <div data-aos='zoom-in' className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 1g:grid-cols-3 gap-[2rem]">
             <div>
                <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <Image 
@@ -20,7 +20,7 @@ const Projects = () => {
                </div>
             </div>
             <div>
-               <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+               <div data-aos='zoom-in' className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <Image 
                     src="/images/p2.jpg" 
                     alt="portfolio" 
@@ -29,7 +29,7 @@ const Projects = () => {
                </div>
             </div>
             <div>
-               <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+               <div data-aos='zoom-in' className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <Image 
                     src="/images/p3.jpg" 
                     alt="portfolio" 
@@ -38,7 +38,7 @@ const Projects = () => {
                </div>
             </div>
             <div>
-               <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+               <div data-aos='zoom-in' className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <Image 
                     src="/images/p4.jpg" 
                     alt="portfolio" 
@@ -47,7 +47,7 @@ const Projects = () => {
                </div>
             </div>
             <div>
-               <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+               <div data-aos='zoom-in' className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <Image 
                     src="/images/p5.jpg" 
                     alt="portfolio" 
@@ -56,7 +56,7 @@ const Projects = () => {
                </div>
             </div>
             <div>
-               <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
+               <div data-aos='zoom-in' className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
                     <Image 
                     src="/images/p5.jpg" 
                     alt="portfolio" 
